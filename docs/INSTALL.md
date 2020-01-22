@@ -10,7 +10,7 @@
 ## Installation steps
 
 * Run the following from your website root folder:
-	`$ composer require netgen/remote-media-bundle:^2.0`
+	`$ composer requir innoteam/remote-media-bundle:^1.1.2`
   
 * Configure the bundle:
     * in `config.yml` add basic configuration:
@@ -47,7 +47,7 @@
     ```
     
 * Update the database with a custom table:
-	* `$ mysql -u<user> -p<password> -h<host> <db_name> < vendor/netgen/remote-media-bundle/Netgen/Bundle/RemoteMediaBundle/Resources/sql/mysql/schema.sql`
+	* `$ mysql -u<user> -p<password> -h<host> <db_name> < vendor/innoteam/remote-media-bundle/Netgen/Bundle/RemoteMediaBundle/Resources/sql/mysql/schema.sql`
     * **OR** run `php app/console doctrine:schema:update --force` (or run with `--dump-sql` to get the sql needed for creating the table)
 
 * Clear the caches
