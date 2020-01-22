@@ -1,21 +1,21 @@
 {
-    "name": "netgen/remote-media-bundle",
+    "name": "innoteam/remote-media-bundle",
     "description": "Remote media field type implementation",
     "type": "ezplatform-bundle",
     "keywords": [
         "ezpublish",
         "ezplatform",
         "remote media",
-        "netgen",
+        "innoteam",
         "remote-media-bundle"
     ],
-    "homepage": "https://github.com/netgen/NetgenRemoteMediaBundle",
+    "homepage": "https://github.com/unrealmanu/InnoteamRemoteMediaBundle",
     "license": "GPL-2.0-only",
     "authors": [
         {
-            "name": "Netgen",
-            "homepage": "http://www.netgenlabs.com",
-            "email": "info@netgen.hr"
+            "name": "Innotem",
+            "homepage": "http://www.innoteam.it",
+            "email": "info@innoteam.it"
         }
     ],
     "require": {
