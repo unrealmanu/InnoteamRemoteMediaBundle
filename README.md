@@ -15,6 +15,7 @@ This repository contains field type (and legacy data type) implementation and pr
 * field type support for remote resources (only Cloudinary supported at the moment)
 * support for images, videos, and documents upload
 * images cropping editor
+* Gravity of Subject of Cloudinary: G_auto: none, subject, classic 
 
 
 ## Licence and installation instructions
