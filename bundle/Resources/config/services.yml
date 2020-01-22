@@ -5,9 +5,6 @@ parameters:
         - { name: 'Embed right', value: 'embed-right' }
 
 services:
-    Netgen\Bundle\RemoteMedia\:
-
-
     netgen_remote_media.handler_registry:
         class: Netgen\Bundle\RemoteMediaBundle\RemoteMedia\Transformation\Registry
 
