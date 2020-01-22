@@ -21,6 +21,7 @@ class Value extends BaseValue
     public $metaData = [
         'format' => '',
         'alt_text' => '',
+        'g_auto' => '',
         'caption' => '',
         'width' => '',
         'height' => '',
@@ -59,6 +60,7 @@ class Value extends BaseValue
             'etag' => !empty($response['etag']) ? $response['etag'] : '',
             'overwritten' => !empty($response['overwritten']) ? $response['overwritten'] : '',
             'alt_text' => !empty($response['context']['custom']['alt']) ? $response['context']['custom']['alt'] : '',
+            'g_auto' => !empty($response['context']['custom']['g_auto']) ? $response['context']['custom']['g_auto'] : '',
             'caption' => !empty($response['context']['custom']['caption']) ? $response['context']['custom']['caption'] : '',
         ];
 

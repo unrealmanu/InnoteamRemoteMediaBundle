@@ -43,6 +43,13 @@ class AddImageRemoteMediaCommand extends ContainerAwareCommand
                 ''
             )
             ->addOption(
+                'g_auto',
+                'g',
+                InputOption::VALUE_OPTIONAL,
+                'Gravity Focus of Images',
+                ''
+            )
+            ->addOption(
                 'caption',
                 'c',
                 InputOption::VALUE_OPTIONAL,
@@ -65,6 +72,7 @@ class AddImageRemoteMediaCommand extends ContainerAwareCommand
         $imagePath = $input->getArgument('image_path');
 
         $altText = $input->getOption('alt_text');
+        $gAuto = $input->getOption('g_auto');
         $caption = $input->getOption('caption');
         $language = $input->getOption('language');
 
@@ -80,6 +88,7 @@ class AddImageRemoteMediaCommand extends ContainerAwareCommand
         $imageInput = new InputValue();
         $imageInput->input_uri = $imagePath;
         $imageInput->alt_text = $altText;
+        $imageInput->g_auto = $gAuto;
         $imageInput->caption = $caption;
         // it is also possible to set coordinations per named variation
         //$imageInput->variations = array(

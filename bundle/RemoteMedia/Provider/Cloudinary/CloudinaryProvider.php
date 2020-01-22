@@ -404,6 +404,7 @@ class CloudinaryProvider extends RemoteMediaProvider
             'discard_original_filename' => isset($options['discard_original_filename']) ? $options['discard_original_filename'] : true,
             'context' => [
                 'alt' => !empty($options['alt_text']) ? $options['alt_text'] : '',
+                'g_auto' => !empty($options['g_auto']) ? $options['g_auto'] : '',
                 'caption' => !empty($options['caption']) ? $options['caption'] : '',
             ],
             'resource_type' => !empty($options['resource_type']) ? $options['resource_type'] : 'auto',

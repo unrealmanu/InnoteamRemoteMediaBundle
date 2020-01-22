@@ -94,6 +94,7 @@ class Type extends FieldType
                     'externalData' => [
                         'input_uri' => $value->input_uri,
                         'alt_text' => $value->alt_text,
+                        'g_auto' => $value->g_auto,
                         'caption' => $value->caption,
                         'variations' => $value->variations,
                     ],

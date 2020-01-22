@@ -83,6 +83,7 @@ class RemoteMediaStorage extends GatewayBasedStorage
             );
         } elseif (is_array($data) && !empty($data)) {
             $options['alt_text'] = $data['alt_text'];
+            $options['g_auto'] = $data['g_auto'];
             $options['caption'] = $data['caption'];
 
             $uploadFile = UploadFile::fromUri($data['input_uri']);

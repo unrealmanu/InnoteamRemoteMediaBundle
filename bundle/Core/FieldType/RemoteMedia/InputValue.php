@@ -8,6 +8,7 @@ class InputValue extends BaseValue
 {
     public $input_uri = null;
     public $alt_text = '';
+    public $g_auto = '';
     public $caption = '';
     public $variations = [];
 
