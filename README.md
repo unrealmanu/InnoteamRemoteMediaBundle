@@ -18,7 +18,7 @@ This repository contains field type (and legacy data type) implementation and pr
 
 Added in this fork
 ```
- Gravity of Subject of Cloudinary: G_auto: none, subject, classic 
+ Gravity Subject of Cloudinary: G_auto: none, subject, classic 
 ```
 
 ## Licence and installation instructions
